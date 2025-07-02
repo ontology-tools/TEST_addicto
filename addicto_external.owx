@@ -1750,10 +1750,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006081"/>
-        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_50906"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://humanbehaviourchange.org/ontology/BCIO_006159"/>
         <Class IRI="http://purl.obolibrary.org/obo/MFOEM_000035"/>
     </SubClassOf>
@@ -18596,25 +18592,30 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             <IRI>http://purl.obolibrary.org/obo/ECO_0007638</IRI>
         </Annotation>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
-            <IRI>http://purl.obolibrary.org/obo/ECO_0007640</IRI>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal>url:http://en.wikipedia.org/wiki/HIV</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>url:http://www.nlm.nih.gov/medlineplus/ency/article/000602.htm</Literal>
+            <Literal>url:https://medlineplus.gov/hiv.html</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>url:https://www.cdc.gov/hiv/about/index.html</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_526</IRI>
-        <Literal xml:lang="en">A viral infectious disease that results in destruction of immune system, leading to life-threatening opportunistic infections and cancers, has_material_basis_in Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency virus 2, which are transmitted by sexual contact, transmitted by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted by congenital method, and transmitted by contaminated needles. The virus infects helper T cells (CD4+ T cells) which are directly or indirectly destroyed, macrophages, and dendritic cells. The infection has symptom diarrhea, has symptom fatigue, has symptom fever, has symptom vaginal yeast infection, has symptom headache, has symptom mouth sores, has symptom muscle aches, has symptom sore throat, and has symptom swollen lymph glands.</Literal>
+        <Literal xml:lang="en">A viral infectious disease that results in destruction of immune system, leading to life-threatening opportunistic infections and cancers, has_material_basis_in Human immunodeficiency virus 1 (Lentivirus humimdef1) or Human immunodeficiency virus 2 (Lentivirus humimdef2), which are transmitted by sexual contact, transmitted by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted by congenital method, and transmitted by contaminated needles. The virus infects helper T cells (CD4+ T cells) which are directly or indirectly destroyed, macrophages, and dendritic cells. The infection has symptom diarrhea, has symptom fatigue, has symptom fever, has symptom vaginal yeast infection, has symptom headache, has symptom mouth sores, has symptom muscle aches, has symptom sore throat, and has symptom swollen lymph glands.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <IRI>http://purl.obolibrary.org/obo/DOID_526</IRI>
         <Literal>ICD10CM:B20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_526</IRI>
+        <Literal>ICD9CM:042</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -20498,14 +20499,34 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <Literal>curator notes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
+        <Literal xml:lang="en">term tracker item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
         <Literal xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000125</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
         <Literal xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
+        <Literal xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000233</IRI>
+        <Literal xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -20894,7 +20915,7 @@ Valence refers to the &apos;the subjective value of an event, object, person, or
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/MFOEM_000005</IRI>
-        <Literal>emotional-relevance appraisal</Literal>
+        <Literal>affective apraisal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
@@ -21520,21 +21541,6 @@ objectives is a planned process.</Literal>
         <IRI>http://purl.obolibrary.org/obo/obi.owl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000011</IRI>
-        <Literal>CHMO:0001840</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000011</IRI>
-        <Literal>OBI:0000011</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000011</IRI>
-        <Literal>planned process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000011</IRI>
         <Literal xml:lang="en">planned process</Literal>
@@ -21712,84 +21718,64 @@ objectives is a planned process.</Literal>
         <Literal xml:lang="en">patient role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>obi:bp</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>obi:fg</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>obi:jf</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>obi:mc</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>obi:prs</Literal>
-        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
+        <Literal>material processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
+        <Literal>A cell lysis, production of a cloning vector, creating a buffer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000122</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>A planned process which results in physical changes in a specified input material.</Literal>
+        <Literal xml:lang="en">A planned process which results in physical changes in a specified input material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>CHMO:0001131</Literal>
+        <Literal xml:lang="en">PERSON: Bjoern Peters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>CHMO:0001267</Literal>
+        <Literal>PERSON: Frank Gibson</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>CHMO:0001461</Literal>
+        <Literal>PERSON: Jennifer Fostel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>FIX:0000258</Literal>
+        <Literal>PERSON: Melanie Courtot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>material transformations</Literal>
+        <Literal>PERSON: Philippe Rocca Serra</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>preparative method</Literal>
+        <Literal xml:lang="en">material transformation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>sample preparation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>sample preparation step</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>sample preparative method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
-        <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>OBI:0000094</Literal>
+        <Literal xml:lang="en">OBI branch derived</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000094</IRI>
-        <Literal>material processing</Literal>
+        <Literal xml:lang="en">material processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
@@ -24043,9 +24029,19 @@ Useful because these map to the strength of the evidence each might provide.</Li
         <IRI>http://purl.obolibrary.org/obo/uberon/core#upper_level</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0000000</IRI>
+        <Literal>This term is being aligned with COB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/UBERON_0000000</IRI>
         <Literal>processual entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0000000</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/OBOFoundry/COB/issues/51</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -27693,6 +27689,11 @@ Useful because these map to the strength of the evidence each might provide.</Li
         <Literal>Synonym of the term.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
+        <IRI>http://orcid.org/0000-0001-5208-3432</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000233"/>
         <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
         <Literal>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</Literal>
@@ -27731,6 +27732,11 @@ Useful because these map to the strength of the evidence each might provide.</Li
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym</IRI>
         <Literal>An alternative label for a class or property which has a more specific meaning than the preferred name/primary label.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym</IRI>
+        <IRI>http://orcid.org/0000-0001-5208-3432</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000233"/>
@@ -27871,19 +27877,6 @@ Useful because these map to the strength of the evidence each might provide.</Li
         <Annotation>
             <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
             <Literal>url:http://www.geneontology.org/formats/oboInOwl#inSubset</Literal>
-        </Annotation>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.geneontology.org/formats/oboInOwl#inSubset</IRI>
-        <Literal>In subset.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-            <Literal>url:http://www.geneontology.org/formats/oboInOwl#inSubset</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdf:type"/>
-            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.geneontology.org/formats/oboInOwl#inSubset</IRI>
